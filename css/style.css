@@ -8499,7 +8499,7 @@ h1, h2, h3, h4, h5,
               left: 0;
               right: 0;
               bottom: 0;
-              height: 650px;
+              height: 450px;
               z-index: 1;
               padding: 1em; } }
           .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
@@ -8614,13 +8614,13 @@ h1, h2, h3, h4, h5,
             color: #ffbd39; }
     .owl-carousel.home-slider .owl-dots {
       position: absolute;
-      left: 0;
+      left: 0; 
       right: 0;
       bottom: 30px;
       width: 100%; }
       @media (max-width: 767.98px) {
         .owl-carousel.home-slider .owl-dots {
-          bottom: 150px;
+          bottom: 280px;
            } }
       .owl-carousel.home-slider .owl-dots .owl-dot {
         width: 10px;
