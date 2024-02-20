@@ -9723,3 +9723,10 @@ textarea.form-control {
   text-overflow: ellipsis; /* Show ellipsis for overflow text */
   width: 200px; /* Set a width; adjust as needed */
 }
+
+@media only screen and (max-width: 425px) {
+ .ph{
+  justify-content: center;
+ }
+ 
+}
