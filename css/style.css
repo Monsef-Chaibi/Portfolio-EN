@@ -9708,7 +9708,7 @@ textarea.form-control {
   .services-1:hover {
       transform: scale(1.1); /* Adjust scale value to control zoom level */
   }
-
+  
   .contact-me:hover
   {
     transform: scale(1.1);
