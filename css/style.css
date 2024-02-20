@@ -61,7 +61,13 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
-
+.logo
+{
+  margin-top: 160px;
+  margin-left: 550px;
+  background-repeat: no-repeat;
+  height: 300px;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -9685,3 +9691,35 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+  #send{
+    color: #ffc107;
+    transition: color 1s ease;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -ms-transition: color 1s ease;
+    -o-transition: color 1s ease;
+}
+  #send:hover{
+    background-color:#ffc107 ;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+  .services-1:hover {
+      transform: scale(1.1); /* Adjust scale value to control zoom level */
+  }
+
+  .contact-me:hover
+  {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.truncate {
+  white-space: nowrap; /* Keep the text in a single line */
+  overflow: hidden; /* Hide overflow content */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  width: 200px; /* Set a width; adjust as needed */
+}
